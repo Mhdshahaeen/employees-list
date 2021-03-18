@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #469d8a;
+  color: white;
+}
+.text-center{
+  text-align: center;
+}
+.containar{
+  width: 60%;
+  margin: 10% auto;
+}
+.list-item p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+.list-item {
+background: #fff;
+color: #469d8a;
+}
+.list-item span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  border: 0.3 solid #ccc;
+  font-size: 20px;
+}
+.list-item span .title{
+  background: #9d4679;
+  color: #fff;
+}
+.list-item span .name,
+form input[type=text]{
+width: 60%;
+}
+.list-item span .age,
+form input[type=number]{
+width: 30%;
+}
+.list-item span .action,
+form input[type=submit]{
+width: 10%;
+}
+.list-item span .icon{
+  color: #f00;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc
+}
+form input[type=submit]{
+  background: #469d8a;
+  border: 0.3px solid #469d8a;
+color: #ccc;
+cursor: pointer;
+
+}
